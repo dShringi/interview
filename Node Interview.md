@@ -95,7 +95,7 @@ myObject.func();
 -------------------------------------------------------------------------------------------
 ```
 function foo1()        function foo2()
-{							         {
+{		       {
   return {                return
       bar: "hello"        {
   };                          bar: "hello"
