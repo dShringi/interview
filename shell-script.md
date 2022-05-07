@@ -1,0 +1,9 @@
+- Write a shell script to fetch the data from rest api and take out the required fileds
+- Write a shell script to extract the number of alphabets characters and digits and tell the count
+- Write a shell script to extract the ip addresss from a file and the count of similar ipadress
+- Write a shell script to hit the rest api and modify the json data and put it back to the database
+- How to declare an array in shell script
+- What is crontab and tell some time set you have done
+- Why do we give #!/bin/sh at start of shell script
+- Write a shell script to find old logs and archive it
+- What is $#,$?,$@ etc.. in linux shell script

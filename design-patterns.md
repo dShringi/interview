@@ -1,0 +1,50 @@
+##Design Pattern
+
+- Creational Patterns
+    - Singleton: return the same instance (usually of itself) every time 
+        - java.lang.Runtime#getRuntime()
+    - Abstract Factory: return the factory itself which in turn can be used to create another abstract/interface type
+        - javax.xml.parsers.DocumentBuilderFactory#newInstance()
+    - Builder: return the instance itself
+        - java.lang.StringBuilder#append()
+    - Factory method: returns an implementation of an abstract/interface type
+        - java.util.ResourceBundle#getBundle()
+    - Prototype: return a different instance of itself with the same properties
+        - java.lang.Object#clone()
+    
+- Structural Patterns
+    - Adapter: takes an instance of different abstract/interface type and returning an implementation of own/another abstract/interface type which decorates/overrides the given instance
+        - java.util.Arrays#asList()
+    - Bridge: takes an instance of different abstract/interface type and returning an implementation of own abstract/interface type which delegates/uses the given instance
+    - Composite: takes an instance of same abstract/interface type into a tree structure
+    - Decorator: takes an instance of same abstract/interface type which adds additional behaviour
+        - java.util.Collections, the checkedXXX(), synchronizedXXX() and unmodifiableXXX() methods.
+    - Facade: uses instances of different independent abstract/interface types
+    - Flyweight: returns a cached instance, a bit the "multiton" idea
+        - java.lang.Integer#valueOf(int) (also on Boolean, Byte, Character, Short, Long and BigDecimal)
+    - Proxy: returns an implementation of given abstract/interface type which in turn delegates/uses a different implementation of given abstract/interface type
+        - javax.persistence.PersistenceContext
+        
+- Behavioural Patterns
+    - Chain of responsibility: (indirectly) invokes the same method in another implementation of same abstract/interface type in a queue
+        - java.util.logging.Logger#log()
+    - Command: invokes a method in an implementation of a different abstract/interface type which has been encapsulated by the command implementation during its creation
+        - All implementations of java.lang.Runnable
+    - Interpreter: returns a structurally different instance/type of the given instance/type; note that parsing/formatting is not part of the pattern, determining the pattern and how to apply it is
+        - All subclasses of java.text.Format
+    - Iterator: returns instances of a different type from a queue
+        - All implementations of java.util.Iterator
+    - Mediator: takes an instance of different abstract/interface type (usually using the command pattern) which delegates/uses the given instance
+        - java.util.Timer (all scheduleXXX() methods)
+    - Memento: internally changes the state of the whole instance
+        - java.util.Date (the setter methods do that, Date is internally represented by a long value)
+    - Observer (or Publish/Subscribe): invokes a method on an instance of another abstract/interface type, depending on own state
+        - All implementations of java.util.EventListener (practically all over Swing thus)
+    - State: method which changes its behaviour depending on the instance's state which can be controlled externally
+        - javax.faces.lifecycle.LifeCycle#execute() (controlled by FacesServlet, the behaviour is dependent on current phase (state) of JSF lifecycle)
+    - Strategy: method which invokes a method in an implementation of a different abstract/interface type which has been passed-in as method argument into the strategy implementation
+        - java.util.Comparator#compare(), executed by among others Collections#sort().
+    - Template method: method which already have a "default" behaviour defined by an abstract type
+        - All non-abstract methods of java.io.InputStream, java.io.OutputStream, java.io.Reader and java.io.Writer
+    - Visitor: two different abstract/interface types which has methods defined which takes each the other abstract/interface type; the one actually calls the method of the other and the other executes the desired strategy on it
+        - java.nio.file.FileVisitor and SimpleFileVisitor

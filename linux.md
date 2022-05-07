@@ -1,0 +1,18 @@
+[//]: # (To be tidied up)
+- What is booting process in linux
+- What is inode in linux how to increase it
+- What is logical volume and how to create it
+- What is swap partition and how to crete
+- ell me about some commands in linux
+- Ho to check the process pot and name(netstat –tulnp)
+- How to kill a process
+- What are ACLs and firewall and selinux
+- How to do the networking using the nmcli
+- How to manage the disk space ,RAM and memory
+- What is TOP command and how to fetch the data
+- What is load average in linux systems and what does three components of load average defines
+- How to assign the process the required amount of resource allocation
+- What is nohup and &
+- User management, file management, log management
+- How to use FIND command and search for logs old then 7 days
+- How to block the ip address in linux

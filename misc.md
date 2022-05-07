@@ -1,0 +1,5 @@
+- container vs vm
+- blue green vs rolling deployment
+- virtualization and types
+- hypervisor
+- 

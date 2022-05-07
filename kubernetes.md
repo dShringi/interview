@@ -1,0 +1,5 @@
+- kubernetes architecture
+- responsibility of each component like control manager, etcd, scheduler, API server
+- ingress controller
+- types of services in kuberntes
+- How one pod talks with other pod

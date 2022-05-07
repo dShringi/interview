@@ -1,0 +1,8 @@
+- if container crashes what happens to volume
+- multi-stage dockerfile
+- copy a file form local to run container
+- docker lifecycle
+- docker networking and types of network in docker
+- diff ADD - COPY, CMD - ENTRYPOINT, RUN - CMD
+- create docker image if internet isn't there
+- docker volumes
