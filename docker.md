@@ -6,3 +6,4 @@
 - diff ADD - COPY, CMD - ENTRYPOINT, RUN - CMD
 - create docker image if internet isn't there
 - docker volumes
+- network types in docker
