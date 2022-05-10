@@ -16,3 +16,4 @@
 - User management, file management, log management
 - How to use FIND command and search for logs old then 7 days
 - How to block the ip address in linux
+- How to debug if a user is unable to create file or folder

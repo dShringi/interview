@@ -5,14 +5,14 @@
   - IP Address Manager (IPAM): makes it easier to plan, track and monitor IP addresses for AWS workloads. Automates IP address assignments in VPC, removing the need to use homegrown planning applications. Enhances network observability by showing IP usage across multiple accounts and VPCs in a a unified operational view.
   - Ingress Routing: Route all incoming and outgoing traffic flowing to/from an IGW or virtual private gateway to a specific EC2's ENI. Configure the VPC to send all traffic to a gateway or EC2 before it reaches business workloads.
   - Network Access Analyzer: Verify the network confirms to the security and compliance requirements. Let's you specify network security and compliance requirements and identifies unintended network access.
-  - Network Access Control List: is an optional layer of security for the VPC that acts as a firewall for controlling traffic in and out of one or more subnets. 
+  - Network Access Control List: is an optional layer of security for the VPC that acts as a firewall for controlling traffic in and out of one or more subnets.
   - Security Groups: act as a firewall for associated EC2, controlling inbound and outbound traffic at the instance level
   - Traffic Mirroring: copy network traffic from an EC2 ENI and send it to out-of-band security and monitoring appliances for deep packet inspection
   - AWS Private Link: Establish private connectivity between VPCs and services hosted on AWS or on-premises, without exposing data to the internet.
   - AWS Network Firewall: Deploy network security across your Amazon VPCs with just a few clicks
   - AWS VPN: Extend your on-premises networks to the cloud and securely access them from anywhere
   - Network address translation (NAT) gateway: Allow VPC private subnet workloads to access the internet while preventing the internet from initiating a connection with those instances
-  
+
 - Load balancers
 - Route53, Routing policy types
 - ASG and launch config
@@ -21,3 +21,12 @@
 - S3 types? S3 bucket policy and lifecycle
 - IAM role and cross region
 - EC2 cross region networking
+
+- Public subnet and private subnet
+- NAT gateway and internet gateway
+- How to continue if pem key is lost
+- Differnece between spot and reserved instance
+- VPC endpoint
+- WAF rules
+- Which rule will be applied first NACL or security Groups
+- NAT gateway is implemented in private subnet or public subnet?
