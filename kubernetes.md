@@ -3,3 +3,8 @@
 - ingress controller
 - types of services in kuberntes
 - How one pod talks with other pod
+- What are the components of master node and worker node
+- What will happen if kube-server is shutdown
+- How logs of kubernetes is shared with monitoring tool
+- How to deny access between two pods
+- deployment strategies in kubernetes
