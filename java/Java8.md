@@ -1,3 +1,13 @@
+
+
+multithreading (DefogTech) -  https://www.youtube.com/watch?v=WH5UvQJizH0&list=PLhfHPmPYPPRk6yMrcbfafFGSbE2EPK_A6
+
+implements custom executor service - https://www.youtube.com/watch?v=3Uo7MfXY4to (this is my video but good one i made from my notes).
+
+merge sort acchese karalena
+logical question bhi karana from this site- https://www.geeksforgeeks.org/
+
+
 1.concurrentHashMap locking on segment.
 
 2. Sorting 0000011111 with o(n)
