@@ -13,20 +13,19 @@
   - AWS VPN: Extend your on-premises networks to the cloud and securely access them from anywhere
   - Network address translation (NAT) gateway: Allow VPC private subnet workloads to access the internet while preventing the internet from initiating a connection with those instances
 
-- Load balancers
+- Load balancers: ELB and NLB, Application and Network Layer, Path based routing and Port based routing, NLB for high throughput applications 
 - Route53, Routing policy types
 - ASG and launch config
 - EBS and EFS
-- VPC Peering and Endpoint
 - S3 types? S3 bucket policy and lifecycle
 - IAM role and cross region
+- Cross account access IAM
 - EC2 cross region networking
 
-- Public subnet and private subnet
+- Public, Private and Isolated subnet: Public has IGW attached, Private has NAT attached for outside connection and Isolated has no route even for outgoing connections
 - NAT gateway and internet gateway
 - How to continue if pem key is lost
 - Differnece between spot and reserved instance
 - VPC endpoint
 - WAF rules
 - Which rule will be applied first NACL or security Groups
-- NAT gateway is implemented in private subnet or public subnet?
