@@ -44,7 +44,7 @@ Questions Asked
 - Implement hashmap on paper
 - Hashmap through lambda
 - SpringBoot annotations 
-
+- Various exceptions in inter-microsevices communication
 
 Links:
 - https://www.toptal.com/java/interview-questions
