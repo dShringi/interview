@@ -40,9 +40,8 @@
 - Throws vs Throw
 - try-catch-finally
   - On exception in try block, rest of the code in try block isn't executed and control is passed to catch block followed by finally and then the rest of the code outside try-catch-finally block
-  - If exception isn't handled in catch block, default handling mechanism is followed and finally block is executed after the default mechanism execution.
   - If there's no exception in try, catch never runs and finally will be executed followed by rest of the program
-  - If there's no catch block, finally will be executed followed by default exception handling mechanism or rest of the program
+  - If there's no catch block or exception isn't handled in catch block, finally will be executed followed by default exception handling mechanism or rest of the program
 
 Questions Asked
 - Race condition in hashmap
