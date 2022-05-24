@@ -11,8 +11,6 @@ Core Java
 - Checked and Unchecked Exceptions
 - ArrayList vs LinkedList
 - How hashmap works
-- ThreadLocal
-- Method Reference
 - Static Inner Class vs Inner Class
 - Static Initialization Block vs Initialization Block
 - Method Signature: Method Name + Parameter List
@@ -50,6 +48,13 @@ Questions Asked
 - Hashmap through lambda
 - SpringBoot annotations 
 - Various exceptions in inter-microsevices communication
+- Implement LRU Cache
+- Find if singly linked list has loop or not
+- Object level and class level lock
+-  reverse the link list
+-  Difference between Hashmap and hashtable
+-  @primary and @qualifier annotations in spring boot
+-  Difference between JPA Repository and CRUD Repository.
 
 Links:
 - https://www.toptal.com/java/interview-questions

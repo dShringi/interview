@@ -11,6 +11,9 @@
 11. Different between semaphore and synchronized and lock
 12. Types of thread pool
 13. Create thread pool without executor service
+14. ThreadLocal
+15. Two thread to print static and synchronized method of a class one by one
+
 
 Links
 - multithreading -  https://www.youtube.com/watch?v=WH5UvQJizH0&list=PLhfHPmPYPPRk6yMrcbfafFGSbE2EPK_A6
