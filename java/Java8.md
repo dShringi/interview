@@ -1,4 +1,22 @@
 1. Singleton class: How it will break and how to prevent, ways to create singleton class
+ - Class Singleton
+   - private constructor
+   - static field containing its only instance
+   - static factory method for obtaining the instance
+ - Enum Singleton
+   ```java
+   public enum EnumSingleton {
+       INSTANCE("Init info");
+       private String info;
+       private EnumSingleton(String info) {
+           this.info = info;
+       }
+       private EnumSingleton getInstance() {
+           return INSTANCE;
+       }
+   }
+   ```
+ - Double Check Locking for Multithreading
 2. Program to read updated five record from file (Design pattern)
 3. In spring bean outer class bean is singleton and inner class bean is prototype how to solve
 4. Garbage collection in JVM a-b and b-a a holding b object and b holding a then is it eligible for garbage collection
